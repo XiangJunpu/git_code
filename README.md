@@ -51,7 +51,10 @@
 
 23.vi readme.txt %进入文本编辑  esc, :wq 保存并退出编辑
 
-24.
+24.git merge --no-ff -m "merge with no-ff" dev %表示禁用 fast forward 模式合并，git就会在merge时生成一个新的commit，这样，从分支历史就可以看出分支信息（使用fast forward 模式，删除分之后，会丢失分支信息）
+
+
+
 
 
 
