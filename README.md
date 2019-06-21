@@ -53,9 +53,13 @@
 
 24.git merge --no-ff -m "merge with no-ff" dev %表示禁用 fast forward 模式合并，git就会在merge时生成一个新的commit，这样，从分支历史就可以看出分支信息（使用fast forward 模式，删除分之后，会丢失分支信息）
 
+25.git stash %可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作。也就是说在分支上有些工作还没完成，可以先将它们储藏起来，搞其他的debug，搞完之后继续完成自己的工作。 git stash pop 即可把刚刚未完成的工作恢复出来
 
-
-
+26.git tag <tagname> %打标签
+   git tag -d <tagname> %删除标签
+   git push origin <tagname> %推送标签到远程
+   git push origin --tags %一次性推送全部尚未推送到远程的本地标签
+   
 
 
 
