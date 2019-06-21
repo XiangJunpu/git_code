@@ -37,11 +37,21 @@
    git push -u origin master %把本地库的所有内容推送到远程库上，把当前分支master推送到远程，由于远程库是空的，第一次推送就加上 -u 参数。
    git push origin master %把本地master分支的最新修改推送到GitHub。
 
-17.
+17.git clone git@github.com:XiangJunpu/gitskills.git %从远程库克隆仓库gitskill到本地库
 
+18.git checkout -b dev %表示创建了分支，并切换到dev分支 （等价于git branch dev, git checkout dev）
 
+19.git branch %会列出所有分支，当前分支前面会标一个 * 号
 
+20.git checkout master %将分支切换回master分支
 
+21.git merge dev %用于合并指定分支到当前分支
+
+22.git branch -d dev %删除分支dev  （因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删除分支，这和直接在master分支上工作效果是一样的，但过程更安全）
+
+23.vi readme.txt %进入文本编辑  esc, :wq 保存并退出编辑
+
+24.
 
 
 
